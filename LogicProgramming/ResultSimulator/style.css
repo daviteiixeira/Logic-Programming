@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+#content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#result {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.studentNotas {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#list {
+    margin-top: 20px;
+}
+#media {
+    margin: 20px;
+    margin-right: 30px;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#addNota, #calcNota, #cleanNota {
+    width: 70px;
+    height: 30px;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 20px;
+}
+#addNota:hover, #calcNota:hover, #cleanNota:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    padding: 0.5%;
+    transition: 0.2s ease-in-out;
+}
